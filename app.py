@@ -23,9 +23,9 @@ def get_seo_report(api_key, website_url):
     
     print(message)
 
-# Replace 'your_api_key_here' with your actual Google PageSpeed Insights API key
-api_key = 'AIzaSyCe_K6zbgj-gf9Hk-2o8AsU3e9L33nM_nU'  # Make sure to use your own key and keep it secure
-website_url = 'https://cliffex.com/'
+# Replace 'your-api' with your actual Google PageSpeed Insights API key
+api_key = 'your-api'  
+website_url = 'your-website'
 
 # Call the function to get the SEO report
 get_seo_report(api_key, website_url)
